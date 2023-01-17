@@ -37,6 +37,21 @@ screens = [
                         text="\u2bc7",
                         fontsize=100,
                         background=colors["background"],
+                        foreground=colors["blue"],
+                        width=40,
+                        padding=0
+                    ),
+                    widget.DF(
+                        warn_space=40,
+                        visible_on_warn=False,
+                        font="Caskaydia Cove Nerd Font Bold",
+                        background=colors["blue"],
+                        format=" {uf}{m} / 60G"
+                    ),
+                    widget.TextBox(
+                        text="\u2bc7",
+                        fontsize=100,
+                        background=colors["blue"],
                         foreground=colors["purple"],
                         width=40,
                         padding=0
